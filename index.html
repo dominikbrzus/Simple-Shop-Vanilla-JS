@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Suits</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="module" defer></script>
+    <script src="https://kit.fontawesome.com/6f81cbf427.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <span class="top__logo">Suits Shop</span>
+            <ul class="top__list">
+                <li class="top__list-items">Man</li>
+                <li class="top__list-items">Woman</li>
+                <li class="top__list-items">Outlet</li>
+            </ul>
+            <div class="top__cart-area">
+                <span class="top__amount"></span><p class="top__dollar">$</p>
+                <button class="top__shopping-cart">
+                    <i class="fa-solid fa-cart-shopping top__shopping-icon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="shopping-cart hidden">
+        <button class="shopping-cart__close">X</button>
+        <h3 class="shopping-cart__title">Shopping cart</h3>
+        <div class="shopping-cart__products-area">
+
+            <div class="shopping-cart__line"></div>
+            <h4 class="shopping-cart__total-price-all">Total price is 0</h4>
+            <button class="shopping-cart__checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <div class="main">
+        <label class="main__label-select" for="select">Sort by</label>
+        <select class="main__select" for="select">
+            <option id="default">Default</option>
+            <option id="higher">Hight to low (price)</option>
+            <option id="lowest">Low to high (price)</option>
+            <option id="rated">Highest rated</option>
+        </select>
+        <div class="main__line"></div>
+        <div class="main__products-area">
+        </div>
+    </div>
+    <footer><p>All rights reserved | <a href="https://websitesdesign.pl">websitesdesign.pl</a></p></footer>
+</body>
+
+</html>
