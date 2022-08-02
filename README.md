@@ -1,6 +1,6 @@
 # About Simple Shop in Vanilla JS
 The project was created in Vanilla JavaScript and CSS. The main premise was creation shopping cart. 
-In this app you can add to the product to the shopping cart and remove the product from the shoppping cart.
+In this app you can add the product to the shopping cart and remove the product from the shoppping cart.
 The app uses local storage.
 
 ## How to install this App?
